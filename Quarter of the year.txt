@@ -1,0 +1,18 @@
+const quarterOf = (month) => {
+  let a = 1;
+  let b = 2;
+  let c = 3;
+  let d = 4;
+ if ( month <= 3 ){
+   return a;
+ }
+  if ( month <= 6){
+   return b;
+  }
+  if ( month <= 9){
+   return c;
+   }
+  if ( month <= 12 ){
+   return d;
+   } 
+}
