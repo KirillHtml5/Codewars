@@ -1,0 +1,16 @@
+function makeUpperCase(str) {
+ var newstr = "";
+var len = str.length;
+  for (var i = 0; i < len; i++) {
+    if (str[i] === str[i].toLowerCase()) {
+      newstr += str[i].toUpperCase();
+    } else if (str[i] === str[i].toUpperCase()){
+      newstr += str[i];
+      } else {
+        newstr += str[i].toLowerCase();
+      }
+     
+    }
+  
+  return newstr;
+}// Code here
