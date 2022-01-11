@@ -1,0 +1,18 @@
+function getGrade (s1, s2, s3) {
+  var sred = (s1 + s2 + s3)/3;
+  if (sred < 60){
+    return "F";
+  }
+  if (sred < 70){
+    return "D"
+  }
+  if (sred < 80){
+    return "C";
+    }
+  if (sred < 90){
+    return "B";
+    }
+  if (sred <= 100){
+    return "A";
+    }// Code here
+}
