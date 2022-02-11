@@ -1,0 +1,5 @@
+function enough(cap, on, wait) {
+  if ((on + wait) > cap ){
+    return Math.abs(wait - (cap - on));
+    } else return 0;// your code here
+}
