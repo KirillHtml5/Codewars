@@ -1,0 +1,8 @@
+function find_average(array) {
+  let a= 0;
+ for (let i=0;i<array.length;i++){
+    a=(a+array[i])
+ } // your code here
+  if (array.length===0) return 0
+  else return a/(array.length);
+}
