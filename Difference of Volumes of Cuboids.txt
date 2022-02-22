@@ -1,0 +1,7 @@
+function findDifference(a, b) {
+  const par1 = a.reduce((acc,rec) => acc*rec);
+  const par2 = b.reduce((acc,rec) => acc*rec);
+  if ( par1 > par2){
+  return par1-par2;  
+  } else return par2-par1;//loading...
+}
