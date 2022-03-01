@@ -1,0 +1,9 @@
+var min = function(list){
+    
+    return list.reduce((min,el) => min < el ? min : el);
+}
+
+var max = function(list){
+    
+    return list.reduce((max,el) => max > el ? max : el);
+}
