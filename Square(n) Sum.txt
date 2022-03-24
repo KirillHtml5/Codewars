@@ -1,0 +1,8 @@
+function squareSum(numbers){
+  let b=numbers.map(el=> el*el)
+let result = b.reduce(function(sum, elem) {
+  return sum + elem;
+}, 0);
+
+return result
+}
