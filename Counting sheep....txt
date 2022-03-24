@@ -1,0 +1,6 @@
+function countSheeps(arrayOfSheep) {
+  
+ let array=arrayOfSheep.filter(el=> el === true)
+ return array.length
+      // TODO May the force be with you
+}
