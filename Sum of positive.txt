@@ -1,0 +1,4 @@
+function positiveSum(arr) {
+let filter=arr.filter(el=> el>0?el:0)
+return filter.reduce((sum,a)=> sum +a ,0)
+}
