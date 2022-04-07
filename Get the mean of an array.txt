@@ -1,0 +1,5 @@
+function getAverage(marks){
+  let sum= marks.reduce((sum,a)=> sum+a,0);
+  return Math.floor(sum/marks.length)
+  //TODO : calculate the downward rounded average of the marks array
+}
