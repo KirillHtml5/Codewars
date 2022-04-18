@@ -1,0 +1,4 @@
+function smash (words) {
+  let result=words.toString()
+   return result.replace(/,/gi,' ');
+};
