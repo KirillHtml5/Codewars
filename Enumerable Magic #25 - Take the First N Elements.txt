@@ -1,0 +1,8 @@
+function take(arr, n) {
+  if (arr.length>n){
+     arr.length=n;
+  return arr
+  }else return arr
+ 
+  // Your code here
+}
