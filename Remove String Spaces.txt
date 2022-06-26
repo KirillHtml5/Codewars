@@ -1,0 +1,5 @@
+function noSpace(x){
+  let string='';
+  string=x.replace(/\s/g, '')
+ return string
+}
